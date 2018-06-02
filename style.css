@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+   /* border: 1px solid black;*/ /*this is to add a border around every element!*/ 
+   
+}
+body {
+    background-image: url("../images/Background.png");
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    margin-bottom: 20px;
+}
+
+#navcontent {
+    width: 960px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+#namebox {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    font-weight: bold;
+    left: 198px;
+    top: 48px;
+ 
+}
+#links{
+    position: absolute;
+    padding: 20px;
+    height: 60px;
+    top: 53px;
+    right: 198px;
+    
+}
+
+#content {
+    clear: both;
+    margin: 20px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2px;
+    border: none;
+    background-color: #cccccc;
+}
+
+footer {
+    background-color: #666666; 
+    text-align: center;
+    border-top: 10px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    padding: 10px;
+  }
+
+  h1 {
+      color: #4aaaa5;
+  }
+  #ricardo {
+      box-sizing: content-box
+      width: 300px;
+      height: 200px;
+      float: left;
+      margin-right: 10px;
+      margin-top: 8px;
+  }
+
+  a {
+      text-decoration: none;
+      color: #777777;
+  }
